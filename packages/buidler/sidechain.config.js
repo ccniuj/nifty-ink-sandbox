@@ -209,6 +209,9 @@ async function addr(addr) {
 module.exports = {
   defaultNetwork: "localhost",
   networks: {
+    buidlerevm: {
+      chainId: 31338
+    },
     kovan: {
       url: 'https://kovan.infura.io/v3/df8ba30e457e4a2fa5b8a76d77ed3819',
       accounts: {
