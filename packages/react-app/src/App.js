@@ -5,8 +5,8 @@ import { ethers } from "ethers";
 import "./App.css";
 import { useContractLoader } from "./hooks"
 import { Ramp, Faucet } from "./components"
-
 import NftyWallet from "./NftyWallet.js"
+import { config } from "dotenv"
 
 const mainnetProvider = new ethers.providers.InfuraProvider("mainnet", "9ea7e149b122423991f56257b882261c")
 let kovanProvider
