@@ -1,0 +1,37 @@
+{
+  "accounts": {
+    "account{0}": "0xc783df8a850f42e7F7e57013759C285caa701eB6"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1599647495306,
+      "record": {
+        "value": "0",
+        "parameters": [
+          "1"
+        ],
+        "to": "created{undefined}",
+        "name": "relayToken",
+        "inputs": "(uint256)",
+        "type": "function",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1599647537787,
+      "record": {
+        "value": "0",
+        "parameters": [
+          "1"
+        ],
+        "to": "created{undefined}",
+        "name": "relayToken",
+        "inputs": "(uint256)",
+        "type": "function",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {}
+}
